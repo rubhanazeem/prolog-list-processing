@@ -24,10 +24,10 @@ hasBroom(X):- quidditchPlayer(X).
 
 %% How does Prolog respond to the following queries?
 
-%% wizard(ron). 				- true
-%% witch(ron). 					- error, Undefined procedure: witch/1
-%% wizard(hermione).		- false
-%% witch(hermione).			- error, Undefined procedure: witch/1
-%% wizard(harry).				- true
-%% wizard(Y).						- Y = ron; Y = harry
-%% witch(Y).						- error, Undefined procedure: witch/1
+%% wizard(ron).         - true
+%% witch(ron).          - error, Undefined procedure: witch/1
+%% wizard(hermione).    - false
+%% witch(hermione).     - error, Undefined procedure: witch/1
+%% wizard(harry).       - true
+%% wizard(Y).           - Y = ron; Y = harry
+%% witch(Y).            - error, Undefined procedure: witch/1
