@@ -12,3 +12,8 @@ accSmall([H|T], A, Small) :- A =< H, accSmall(T, A, Small).
 accSmall([], A, A).
 
 small(List, X) :- List = [H|_], accSmall(List, H, X).
+
+
+%% iterate list
+iterate([H|T]) :- write(H), write(' '), iterate(T).
+iterate([]).
